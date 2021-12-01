@@ -4,6 +4,9 @@
   "main": "index.js",
   "author": "cmdzro <cmdzro@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "init-db": "dotenv ./scripts/setup.sh"
+  },
   "dependencies": {
     "dotenv": "^10.0.0",
     "dotenv-cli": "^4.1.1",
