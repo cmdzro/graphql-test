@@ -5,11 +5,13 @@
   "author": "cmdzro <cmdzro@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "init-db": "dotenv ./scripts/setup.sh"
+    "init-db": "dotenv ./scripts/setup.sh",
+    "fetch-schema": "dotenv ./scripts/fetch-schema.sh"
   },
   "dependencies": {
     "dotenv": "^10.0.0",
     "dotenv-cli": "^4.1.1",
+    "graphqurl": "^1.0.1",
     "tslint": "^6.1.3",
     "typescript": "^4.5.2"
   }
